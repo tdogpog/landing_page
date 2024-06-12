@@ -98,3 +98,33 @@ a{
     font-size: 18px;
     font-weight: bold;  
 }
+
+.bottom-center-card{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin: 100px;
+    align-items: center;
+    background: #3882F6;
+    border-radius: 25px;
+}
+
+.bottomlist{
+    list-style: none;
+    color: #F9FAF8;
+}
+
+.action-call{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 6px;
+}
+
+.signup-button{
+    height: 40px;
+    width: 100px;
+    background: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    box-shadow: 6px 6px 6px black;
+}
