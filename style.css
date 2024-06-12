@@ -78,14 +78,15 @@ a{
 .lower-section{
     display: flex;
     justify-content: center;
-    background-color: gray;
+    background-color: lightgrey;
+    padding: 70px;
 }
 
 .lowerquote{
     display: flex;
     flex-direction: column;
     align-items: end;
-    width: 600px;
+    width: 800px;
     justify-content: center;
     font-size: 25px;
     gap: 15px;
