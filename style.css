@@ -100,10 +100,17 @@ a{
     gap: 100px;
 }
 
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .emptybox{
-    height: 280px;
     border: 5px solid #3882F6;
     border-radius: 20px;
+    aspect-ratio: 1;
+    width: 250px;
 }
 
 .cards{
