@@ -122,6 +122,11 @@ a{
     font-style: initial;
 }
 
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
 .bottom-center-card{
     display: flex;
     justify-content: center;
@@ -129,7 +134,9 @@ a{
     margin: 100px;
     align-items: center;
     background: #3882F6;
-    border-radius: 25px;
+    border-radius: 5px;
+    width: 800px;
+    padding:10px;
 }
 
 .bottomlist{
