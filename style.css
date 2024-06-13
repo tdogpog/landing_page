@@ -31,7 +31,8 @@ a{
     align-items: center;
     justify-content: space-around;
     background: #1F2937;
-    padding: 40px;
+    padding: 60px;
+    padding-bottom: 100px;
 
 }
 
@@ -56,11 +57,24 @@ a{
     font-size: 18px;
 }
 
+.firstsignup{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    background: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    box-shadow: 6px 6px 6px black;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .lowercard{
     border: 1px solid gray;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
-    padding: 150px;
+    padding: 100px;
     width: 250px;
     background: gray;
     margin-top: 20px;
@@ -86,7 +100,7 @@ a{
 .lower-section{
     display: flex;
     justify-content: center;
-    background-color: lightgrey;
+    background-color: #E5E7EB;
     padding: 70px;
 }
 
@@ -95,16 +109,17 @@ a{
     flex-direction: column;
     align-items: end;
     width: 800px;
-    justify-content: center;
-    font-size: 25px;
+    font-size: 36px;
     gap: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 .quote-source{
     font-size: 18px;
     font-weight: bold;  
+    font-style: initial;
 }
 
 .bottom-center-card{
