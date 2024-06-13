@@ -88,12 +88,27 @@ a{
     flex-direction: column;
     align-items: center;
     padding: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 .allcards{
     display: flex;
     padding: 150px;
-    gap:90x;
+    font-size: 20px;
+    gap: 100px;
+}
+
+.emptybox{
+    height: 280px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.cards{
+    text-align: center;
+    margin-top: 20px ;
 }
 
 
